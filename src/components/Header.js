@@ -1,29 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Typical from "react-typical";
-import Switch from "react-switch";
 import { Icon } from '@iconify/react';
 import bxPaint from '@iconify-icons/bx/bx-paint';
 
 
 export const Header = () => {
 
-    const [checked, setChecked] = useState(false);
-    const [theme, setTheme] = useState("dark");
+    // const [checked, setChecked] = useState(false);
+    // const [theme, setTheme] = useState("dark");
 
-    function onThemeSwitchChange() {
-        setChecked(!checked);
-        if (theme === "dark")
-            setTheme("light");
-        else
-            setTheme("dark");
-    }
+    // function onThemeSwitchChange() {
+    //     setChecked(!checked);
+    //     if (theme === "dark")
+    //         setTheme("light");
+    //     else
+    //         setTheme("dark");
+    // }
 
     const HeaderTitleTypeAnimation = React.memo(() => {
         return <Typical className="title-styles" steps={["SENIOR STUDIO ART MAJOR", 1500, "PAINTER", 1500, "SCULPTOR", 1500, "DEVELOPER", 1500]} loop={50} />
     }, (props, prevProp) => true);
 
     return (
-        <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
+        <header id="home" style={{ height: window.innerHeight - 90, display: 'block' }}>
             <div className="row aligner" style={{ height: '100%' }}>
                 <div className="col-md-12">
                     <div>
@@ -35,7 +34,7 @@ export const Header = () => {
                         <div className="title-container">
                             <HeaderTitleTypeAnimation />
                         </div>
-                        <Switch
+                        {/* <Switch
                             checked={checked}
                             onChange={onThemeSwitchChange}
                             offColor="#baaa80"
@@ -74,7 +73,7 @@ export const Header = () => {
                                 ></span>
                             }
                             id="icon-switch"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>

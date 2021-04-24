@@ -3,12 +3,11 @@ import Typical from "react-typical";
 
 class About extends Component {
     render() {
-
         return (
-            <div id="about" className="col-md-12">
-                <h1 style={{ color: "black" }}>
+            <div id="about" className="col-md-12" style={{ marginTop: "7%" }}>
+                {/* <h1 style={{ color: "black" }}>
                     <span>ABOUT</span>
-                </h1>
+                </h1> */}
                 <br />
                 <div className="row center mx-auto mb-5">
                     <div className="col-md-4 mb-5 center">
@@ -19,13 +18,14 @@ class About extends Component {
                                     src="images/myProfile.jpg"
                                     alt="Avatar placeholder"
                                 />
+                                <br /><br />
                                 <Typical steps={["HELLO :))", 1500, "I'M LIZA", 1500]} wrapper="h1" />
                             </span>
                         </div>
                     </div>
 
                     <div className="col-md-8 center">
-                        <div className="col-md-10">
+                        <div className="col-md-12">
                             <div className="card">
                                 <div className="card-header">
                                 </div>
@@ -56,7 +56,6 @@ class About extends Component {
                                     <span style={{ paddingLeft: "24px" }}>
                                         Much of her past work is inspired by found objects with the themes often reflecting the places and items she explores. In that work, she plays with the importance of material and how the medium and marks relate to the different stories she is trying to tell. This relation of material to meaning is the driving force behind much of her past works and still inspires her current explorations as she explores her interest in painted form.
                                     </span>
-
                                 </div>
                             </div>
                         </div>

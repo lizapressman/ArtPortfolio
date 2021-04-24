@@ -111,11 +111,13 @@ img {
 #about {
 	background: #fff;
 	overflow: hidden;
-  font-size: 62.5%;
+  	font-size: 62.5%;
+	padding-bottom: 100px;
+	margin-top: 7%;
 }
 
 #about h1 {
-	padding-top: 3%;
+	/* padding-top: 5%; */
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -343,8 +345,9 @@ img {
 }
 
 #portfolio {
-	background: #efe1bd;
-	padding-bottom: 5%;
+	/* background: #efe1bd; */
+	padding-bottom: 100px;
+	color: black;
 }
 
 .portfolio-item {
@@ -392,7 +395,7 @@ img {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: black;
 	text-align: center;
 }
 
@@ -410,7 +413,8 @@ footer {
 	overflow: hidden;
 	font-size: 14px;
 	color: white;
-	position: relative;
+	position: fixed;
+	bottom: 0;
 	text-align: center;
 }
 
@@ -425,6 +429,6 @@ footer a:focus {
 }
 
 .social-links {
-	margin-top: 50px;
+	margin-top: 10px;
 	font-size: 22px;
 }
