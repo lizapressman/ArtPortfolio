@@ -12,7 +12,7 @@ const MyGallery = () => (
             thumbnail="images/portfolio/thesis/thumbnail/p4.jpg"
             width="1024"
             height="768"
-            title="Liza Pressman <br /> stretched, 2021 <br /> acrylic on unstretched canvas"
+            title="Liza Pressman<br /><em>stretched</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" />
@@ -23,7 +23,7 @@ const MyGallery = () => (
             thumbnail="images/portfolio/thesis/thumbnail/p1.jpg"
             width="1024"
             height="768"
-            title="Liza Pressman <br /> bobble, 2021 <br /> acrylic on unstretched canvas"
+            title="Liza Pressman<br /><em>bobble</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" />
@@ -34,7 +34,7 @@ const MyGallery = () => (
             thumbnail="images/portfolio/thesis/thumbnail/p5.jpg"
             width="1024"
             height="768"
-            title="Liza Pressman <br /> space, 2021 <br /> acrylic on unstretched canvas"
+            title="Liza Pressman<br /><em>space</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" />
@@ -45,7 +45,7 @@ const MyGallery = () => (
             thumbnail="images/portfolio/thesis/thumbnail/p2.jpg"
             width="1024"
             height="768"
-            title="Liza Pressman <br /> shallow, 2021 <br /> acrylic on unstretched canvas"
+            title="Liza Pressman<br /><em>shallow</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" />
@@ -56,7 +56,7 @@ const MyGallery = () => (
             thumbnail="images/portfolio/thesis/thumbnail/p3.jpg"
             width="1024"
             height="768"
-            title="Liza Pressman <br /> beneath, 2021 <br /> acrylic on unstretched canvas"
+            title="Liza Pressman<br /><em>beneath</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" />
@@ -70,10 +70,11 @@ export const Thesis = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
             <Typical className="section-title" style={{ color: "black" }} steps={["Senior Thesis Exhibition", 1500, "distort.", 1500]} wrapper="h1" />
+            <br />
             <div style={{ margin: "auto", width: "80%" }}>
-                <div className="card" >
-                    <div className="card-header">
-                    </div>
+                <div className="card" style={{ background: "#efe1bd" }}>
+                    {/* <div className="card-header">
+                    </div> */}
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
                         style={{
@@ -87,7 +88,8 @@ export const Thesis = () => {
                         </span>
                     </div>
                 </div>
-                <div style={{ textAlign: "center", marginBottom: "100px" }}>
+                <br />
+                <div style={{ textAlign: "center", marginBottom: "30px" }}>
                     <MyGallery />
                 </div>
             </div>

@@ -27,6 +27,7 @@ html {
 .header-icon {
 	height: 150px;
 	width: 150px;
+	color: #343a40;
 }
 
 header {
@@ -45,7 +46,8 @@ header {
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
-  font-size: 62.5%;
+  	font-size: 62.5%;
+  	color: #343a40;
 }
 
 .language-icon {
@@ -84,7 +86,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #343a40;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -112,7 +114,7 @@ img {
 	background: #fff;
 	overflow: hidden;
   	font-size: 62.5%;
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 	margin-top: 7%;
 }
 
@@ -395,7 +397,7 @@ img {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #343a40;
 	text-align: center;
 }
 
@@ -407,8 +409,9 @@ img {
 }
 
 footer {
-	background: #1F1F1F;
-	min-height: 100px;
+	background: #343a40;
+	/* background: #efe1bd; */
+	min-height: 70px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
@@ -432,3 +435,9 @@ footer a:focus {
 	margin-top: 10px;
 	font-size: 22px;
 }
+/* .pswp__bg {
+    background-color: #efe1bd !important;
+}
+.Pswp_bg image-zoom-background {
+    background-color: #efe1bd !important;
+} */
