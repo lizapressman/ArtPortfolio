@@ -14,7 +14,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p1.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p1.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -24,7 +24,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p2.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p2.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -34,7 +34,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p3.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p3.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -44,7 +44,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p4.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p4.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -54,7 +54,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p5.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p5.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -64,7 +64,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p6.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p6.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -74,7 +74,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p7.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p7.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -84,7 +84,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p8.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p8.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -94,7 +94,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p9.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p9.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -104,7 +104,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p10.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p10.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -114,7 +114,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p11.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p11.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -124,7 +124,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p12.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p12.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -134,7 +134,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p13.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p13.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -144,7 +144,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p14.png" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p14.png" alt="" />
             )}
         </Item>
         <Item
@@ -154,7 +154,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p15.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p15.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -164,7 +164,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p16.png" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p16.png" alt="" />
             )}
         </Item>
         <Item
@@ -174,7 +174,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p17.png" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p17.png" alt="" />
             )}
         </Item>
         <Item
@@ -184,7 +184,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p18.png" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p18.png" alt="" />
             )}
         </Item>
         <Item
@@ -194,7 +194,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p19.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/other/thumbnail/p19.jpg" alt="" />
             )}
         </Item>
     </Gallery>

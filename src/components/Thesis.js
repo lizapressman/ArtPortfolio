@@ -15,7 +15,7 @@ const MyGallery = () => (
             title="Liza Pressman<br /><em>stretched</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -26,7 +26,7 @@ const MyGallery = () => (
             title="Liza Pressman<br /><em>bobble</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -37,7 +37,7 @@ const MyGallery = () => (
             title="Liza Pressman<br /><em>space</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -48,7 +48,7 @@ const MyGallery = () => (
             title="Liza Pressman<br /><em>shallow</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -59,7 +59,7 @@ const MyGallery = () => (
             title="Liza Pressman<br /><em>beneath</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" alt="" />
             )}
         </Item>
 

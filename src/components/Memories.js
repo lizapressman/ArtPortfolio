@@ -14,7 +14,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p1.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p1.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -24,7 +24,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p2.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p2.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -34,7 +34,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p3.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p3.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -44,7 +44,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p4.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p4.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -54,7 +54,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p5.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p5.jpg" alt="" />
             )}
         </Item>
         <Item
@@ -64,7 +64,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p6.jpg" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p6.jpg" alt="" />
             )}
         </Item>
     </Gallery>
