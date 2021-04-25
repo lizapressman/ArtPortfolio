@@ -7,16 +7,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 export const NavBar = () => {
     return (
         <Navbar fixed="top" sticky="sticky" bg="dark" expand="lg" variant="dark">
-            <Navbar.Brand href="/">Liza Pressman</Navbar.Brand>
+            <Navbar.Brand href="/ArtPortfolio/#/">Liza Pressman</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/ArtPortfolio/#/about">About</Nav.Link>
                     <NavDropdown title="Art" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/thesis">distort.</NavDropdown.Item>
-                        <NavDropdown.Item href="/memories">mem.</NavDropdown.Item>
+                        <NavDropdown.Item href="/ArtPortfolio/#/thesis">distort.</NavDropdown.Item>
+                        <NavDropdown.Item href="/ArtPortfolio/#/memories">mem.</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/other">misc.</NavDropdown.Item>
+                        <NavDropdown.Item href="/ArtPortfolio/#/other">misc.</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 {/* <Nav>

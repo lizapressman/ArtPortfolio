@@ -4,6 +4,7 @@ import 'photoswipe/dist/photoswipe.css'
 import 'photoswipe/dist/default-skin/default-skin.css'
 
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import ImageGallery from 'react-image-gallery';
 
 const MyGallery = () => (
     <Gallery shareButton={false} zoomButton={false}>
@@ -66,6 +67,29 @@ const MyGallery = () => (
     </Gallery>
 )
 
+const images = [
+    {
+        original: "images/portfolio/thesis/p4.jpg",
+        thumbnail: "images/portfolio/thesis/thumbnail/p4.jpg"
+    },
+    {
+        original: "images/portfolio/thesis/p1.jpg",
+        thumbnail: "images/portfolio/thesis/thumbnail/p1.jpg"
+    },
+    {
+        original: "images/portfolio/thesis/p5.jpg",
+        thumbnail: "images/portfolio/thesis/thumbnail/p5.jpg"
+    },
+    {
+        original: "images/portfolio/thesis/p2.jpg",
+        thumbnail: "images/portfolio/thesis/thumbnail/p2.jpg"
+    },
+    {
+        original: "images/portfolio/thesis/p3.jpg",
+        thumbnail: "images/portfolio/thesis/thumbnail/p3.jpg"
+    },
+];
+
 export const Thesis = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
@@ -89,8 +113,11 @@ export const Thesis = () => {
                     </div>
                 </div>
                 <br />
-                <div style={{ textAlign: "center", marginBottom: "30px" }}>
+                <div className="biggallery" style={{ textAlign: "center", marginBottom: "30px" }}>
                     <MyGallery />
+                </div>
+                <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
+                    <ImageGallery items={images} />
                 </div>
             </div>
         </div>

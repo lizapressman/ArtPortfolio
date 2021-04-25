@@ -4,6 +4,7 @@ import 'photoswipe/dist/photoswipe.css'
 import 'photoswipe/dist/default-skin/default-skin.css'
 
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import ImageGallery from 'react-image-gallery';
 
 const MyGallery = () => (
     <Gallery shareButton={false} zoomButton={false}>
@@ -200,14 +201,96 @@ const MyGallery = () => (
     </Gallery>
 )
 
+const images = [
+    {
+        original: "images/portfolio/other/p1.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p1.jpg"
+    },
+    {
+        original: "images/portfolio/other/p2.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p2.jpg"
+    },
+    {
+        original: "images/portfolio/other/p3.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p3.jpg"
+    },
+    {
+        original: "images/portfolio/other/p4.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p4.jpg"
+    },
+    {
+        original: "images/portfolio/other/p5.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p5.jpg"
+    },
+    {
+        original: "images/portfolio/other/p6.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p6.jpg"
+    },
+    {
+        original: "images/portfolio/other/p7.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p7.jpg"
+    },
+    {
+        original: "images/portfolio/other/p8.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p8.jpg"
+    },
+    {
+        original: "images/portfolio/other/p9.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p9.jpg"
+    },
+    {
+        original: "images/portfolio/other/p10.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p10.jpg"
+    },
+    {
+        original: "images/portfolio/other/p11.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p11.jpg"
+    },
+    {
+        original: "images/portfolio/other/p12.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p12.jpg"
+    },
+    {
+        original: "images/portfolio/other/p13.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p13.jpg"
+    },
+    {
+        original: "images/portfolio/other/p14.png",
+        thumbnail: "images/portfolio/other/thumbnail/p14.png"
+    },
+    {
+        original: "images/portfolio/other/p15.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p15.jpg"
+    },
+    {
+        original: "images/portfolio/other/p16.png",
+        thumbnail: "images/portfolio/other/thumbnail/p16.png"
+    },
+    {
+        original: "images/portfolio/other/p17.png",
+        thumbnail: "images/portfolio/other/thumbnail/p17.png"
+    },
+    {
+        original: "images/portfolio/other/p18.png",
+        thumbnail: "images/portfolio/other/thumbnail/p18.png"
+    },
+    {
+        original: "images/portfolio/other/p19.jpg",
+        thumbnail: "images/portfolio/other/thumbnail/p19.jpg"
+    }
+];
+
 export const Other = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
             <Typical className="section-title" style={{ color: "black" }} steps={["Miscellaneous Works", 1500]} wrapper="h1" />
             <br />
             <div style={{ margin: "auto", width: "90%" }}>
-                <div style={{ textAlign: "center", marginBottom: "30px" }}>
+                <div className="biggallery" style={{ textAlign: "center", marginBottom: "30px" }}>
                     <MyGallery />
+                </div>
+                <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
+                    <ImageGallery items={images} />
                 </div>
             </div>
         </div>

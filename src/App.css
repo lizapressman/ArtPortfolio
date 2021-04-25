@@ -1,6 +1,7 @@
 /* @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss'; */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 html {
 	/* font-size: 62.5%; */
@@ -419,6 +420,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	text-align: center;
+	z-index: 99 !important;
 }
 
 footer a,
@@ -435,9 +437,14 @@ footer a:focus {
 	margin-top: 10px;
 	font-size: 22px;
 }
-/* .pswp__bg {
-    background-color: #efe1bd !important;
+
+@media screen and (max-width: 640px) {
+	.biggallery {
+		display: none !important;
+	}
 }
-.Pswp_bg image-zoom-background {
-    background-color: #efe1bd !important;
-} */
+@media screen and (min-width: 640px) {
+	.smallgallery {
+		display: none !important;
+	}
+}

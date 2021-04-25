@@ -6,13 +6,13 @@ import About from "./components/About";
 import { Thesis } from "./components/Thesis";
 import { Memories } from "./components/Memories";
 import { Other } from "./components/Other";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar></NavBar>
         <Switch>
           <Route exact path='/' component={Header} />
