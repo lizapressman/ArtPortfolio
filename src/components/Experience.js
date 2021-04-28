@@ -79,7 +79,7 @@ export const Experience = () => {
 
     return (
         <>
-            <div id="experience" className="col-md-12 center" style={{ marginTop: "100px" }}>
+            <div id="experience" className="col-md-12 center" style={{ marginTop: "100px", paddingBottom: "0px" }}>
                 <div className="card" style={{ background: "#efe1bd" }}>
                     <div className="card-header" style={{ textAlign: "center" }}>
                         <h1>WORK EXPERIENCE</h1>
@@ -128,6 +128,82 @@ export const Experience = () => {
                             </span>
                         )
                         }
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div id="experience" className="col-md-12 center" style={{ marginTop: "0px", marginBottom: "30px" }}>
+                <div className="card" style={{ background: "#efe1bd" }}>
+                    <div className="card-header" style={{ textAlign: "center" }}>
+                        <h1>PROJECTS</h1>
+                    </div>
+                    <div
+                        className="card-body font-trebuchet polaroid"
+                        style={{
+                            height: "auto",
+                            fontSize: "150%",
+                            lineHeight: "200%",
+                            textAlign: "center"
+                        }}
+                    >
+                        <span>
+                            <a href="https://www.github.com/lizapressman/PersonalWebsite" target="_blank" rel="noopener noreferrer">
+                                <i style={{
+                                    color: "black", fontSize: "18px/24px", display: "inline"
+                                }} className="fab fa-github"></i>
+                                {' '} Personal Website
+                            </a>
+
+                            <p>Personal portfolio site written in React using Typescript and custom CSS</p>
+                            <div className="language-tag">React</div>
+                            <div className="language-tag">Javascript</div>
+                            <div className="language-tag">CSS</div>
+                        </span>
+
+                        <span>
+                            <a href="https://github.com/lizapressman/ResumeToWebsiteWebsite" target="_blank" rel="noopener noreferrer">
+                                <i style={{
+                                    color: "black", fontSize: "18px/24px", display: "inline"
+                                }} className="fab fa-github"></i>
+                                {' '} Resume To Website UI
+                            </a>
+                            <br />
+                            <a href="https://github.com/lizapressman/ResumeToWebsite" target="_blank" rel="noopener noreferrer">
+                                <i style={{
+                                    color: "black", fontSize: "18px/24px", display: "inline"
+                                }} className="fab fa-github"></i>
+                                {' '} Resume To Website Backend
+                            </a>
+
+                            <p>React website that takes user inputted resume and parses it using Python backend to publish resulting HTML portfolio site</p>
+                            <div className="language-tag">Python</div>
+                            <div className="language-tag">React</div>
+                            <div className="language-tag">Flask</div>
+                        </span>
+
+                        <span>
+                            <a href="https://github.com/Mayshinlyan/TherapyJournalling" target="_blank" rel="noopener noreferrer">
+                                <i style={{
+                                    color: "black", fontSize: "18px/24px", display: "inline"
+                                }} className="fab fa-github"></i>
+                                {' '} Therapy Journaling Application
+                            </a>
+
+                            <p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
+                            <div className="language-tag">MERN</div>
+                        </span>
+
+                        <span>
+                            <a href="https://github.com/lizapressman/ConnectFour" target="_blank" rel="noopener noreferrer">
+                                <i style={{
+                                    color: "black", fontSize: "18px/24px", display: "inline"
+                                }} className="fab fa-github"></i>
+                                {' '} Connect Four AI
+                            </a>
+                            <p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
+                            <div className="language-tag">Java</div>
+                        </span>
+                        <br />
                     </div>
                 </div>
             </div>
