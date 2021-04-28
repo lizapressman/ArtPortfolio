@@ -17,12 +17,6 @@ export const Experience = () => {
         setIsDoctorPlanShown(!isDoctorPlanShown)
     }
 
-    const closeAll = () => {
-        setIsDatadogShown(false);
-        setIsDoctorPlanShown(false);
-        setIsTargetShown(false);
-    }
-
     const Datadog = () => {
         return (
             <span className="experience-polaroid" onClick={() => {
@@ -81,7 +75,7 @@ export const Experience = () => {
         <>
             <div id="experience" className="col-md-12 center" style={{ marginTop: "100px", paddingBottom: "0px" }}>
                 <div className="card" style={{ background: "#efe1bd" }}>
-                    <div className="card-header" style={{ textAlign: "center" }}>
+                    <div className="card-header">
                         <h1>WORK EXPERIENCE</h1>
                     </div>
                     <div
@@ -99,26 +93,29 @@ export const Experience = () => {
                         <br />
                         {isDatadogShown && (
                             <span style={{ textAlign: "left" }}>
-                                <h1>Datadog</h1>
+                                <h1>Datadog | <b>Software Engineer</b></h1>
                                 <p>Working on the Java APM team</p>
+                                <ul>
+                                    <li></li>
+                                </ul>
                             </span>
                         )
                         }
                         {isTargetShown && (
                             <span style={{ textAlign: "left" }}>
-                                <h1>Target</h1>
-                                <p>Working on the Purchase Orders Team developing with Java, Springboot, jOOQ, and React</p>
+                                <h1>Target | <b>Software Engineering Intern</b></h1>
+                                <p>Worked on the Purchase Orders Team developing with Java, Springboot, jOOQ, and React</p>
                                 <ul>
-                                    <li>Writing React components for internal Admin UI</li>
-                                    <li>Writing PostgreSQL queries within Java Springboot backend and exposing them on rest endpoints</li>
-                                    <li>Writing Java Springboot functional and unit tests</li>
+                                    <li>Wrote React components for internal Admin UI</li>
+                                    <li>Implemented PostgreSQL queries within Java Springboot back- end and exposed them on rest endpoints</li>
+                                    <li>Executed Java Springboot functional and unit tests</li>
                                 </ul>
                             </span>
                         )
                         }
                         {isDoctorPlanShown && (
                             <span style={{ textAlign: "left" }}>
-                                <h1>DoctorPlan</h1>
+                                <h1>DoctorPlan | <b>Software Engineering Intern</b></h1>
                                 <p>Worked primarily on doctor facing tools</p>
                                 <ul>
                                     <li>Used Java to gather and summarize patient data and optimize visual display for surgeons’ use</li>
@@ -132,9 +129,11 @@ export const Experience = () => {
                 </div>
             </div>
             <br />
-            <div id="experience" className="col-md-12 center" style={{ marginTop: "0px", marginBottom: "30px" }}>
-                <div className="card" style={{ background: "#efe1bd" }}>
-                    <div className="card-header" style={{ textAlign: "center" }}>
+            <div id="experience" className="col-md-12 center" style={{ marginTop: "0px", margin: "auto", width: "85%" }}>
+                {/* <div style={{ margin: "auto", width: "80%" }}> */}
+
+                <div className="card" style={{ background: "#efe1bd", marginBottom: "50px" }}>
+                    <div className="card-header">
                         <h1>PROJECTS</h1>
                     </div>
                     <div
@@ -154,7 +153,7 @@ export const Experience = () => {
                                 {' '} Personal Website
                             </a>
 
-                            <p>Personal portfolio site written in React using Typescript and custom CSS</p>
+                            <p>Personal portfolio site written in React using Javascript and custom CSS</p>
                             <div className="language-tag">React</div>
                             <div className="language-tag">Javascript</div>
                             <div className="language-tag">CSS</div>
@@ -178,6 +177,7 @@ export const Experience = () => {
                             <p>React website that takes user inputted resume and parses it using Python backend to publish resulting HTML portfolio site</p>
                             <div className="language-tag">Python</div>
                             <div className="language-tag">React</div>
+                            <div className="language-tag">Typescript</div>
                             <div className="language-tag">Flask</div>
                         </span>
 
@@ -189,7 +189,7 @@ export const Experience = () => {
                                 {' '} Therapy Journaling Application
                             </a>
 
-                            <p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
+                            <p>Application using MERN stack for personalized journaling with automated feedback based on mood &amp; text analysis</p>
                             <div className="language-tag">MERN</div>
                         </span>
 

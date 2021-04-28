@@ -13,7 +13,7 @@ export const Header = () => {
                 <div className="col-md-12">
                     <div>
                         <div className="polaroid header-polaroid" >
-                            <span style={{ borderRadius: "50%" }}>
+                            <span style={{ borderRadius: "50%", background: "#70abaf" }}>
                                 <img
                                     style={{ borderRadius: "50%" }}
                                     height="300px"
@@ -23,9 +23,9 @@ export const Header = () => {
                             </span>
                         </div>
                         <Typical steps={["HEY, I'M LIZA!", 1500]} wrapper="h1" />
-                        <div>
-                            <HeaderTitleTypeAnimation />
-                        </div>
+                        {/* <div> */}
+                        <HeaderTitleTypeAnimation />
+                        {/* </div> */}
                     </div>
                 </div>
             </div>

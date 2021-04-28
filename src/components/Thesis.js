@@ -93,12 +93,12 @@ const images = [
 export const Thesis = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
-            <Typical className="section-title" style={{ color: "black" }} steps={["Senior Thesis Exhibition", 1500, "distort.", 1500]} wrapper="h1" />
-            <br />
+            <br /><br />
             <div style={{ margin: "auto", width: "80%" }}>
                 <div className="card" style={{ background: "#efe1bd" }}>
-                    {/* <div className="card-header">
-                    </div> */}
+                    <div className="card-header" style={{ paddingBottom: "0px" }}>
+                        <h1><Typical style={{ color: "black" }} steps={["Senior Thesis Exhibition", 1500, "distort.", 1500]} /></h1>
+                    </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
                         style={{

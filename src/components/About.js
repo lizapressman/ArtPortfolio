@@ -27,7 +27,7 @@ class About extends Component {
                 // <span key={network.name} className="m-2" >
                 <a href={network.url} target="_blank" rel="noopener noreferrer">
                     <i style={{
-                        color: "black", padding: "20px", fontSize: "30px"
+                        color: "#70abaf", padding: "20px", fontSize: "30px"
                     }} className={network.class}></i>
                 </a>
                 // </span>

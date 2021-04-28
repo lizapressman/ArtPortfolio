@@ -25,6 +25,20 @@ html {
 	font-size: 200%;
 }
 
+.card-header {
+	text-align: center!important;
+	background-color: #70abaf!important;	
+	/* background-color: #d6bd7f!important; */
+	/* background-color: #d3bdef!important; */
+	/* background-color: #efd5bd!important; */
+	/* background-color: #ecbdef!important; */
+	/* background-color: #bdc3ef!important; */
+	/* background-color: #bdefe9!important; */
+	/* background-color: #d9efbd!important; */
+
+
+}
+
 .header-icon {
 	height: 150px;
 	width: 150px;
@@ -40,7 +54,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #efe1bd;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -164,7 +178,7 @@ img {
 }
 
 .language-tag {
-	background: #efe1bd!important;
+	background: #70abaf!important;
 	margin: 5px;
 	border-radius: 20%;
 	display: inline-block;
@@ -504,7 +518,7 @@ img {
 
 footer {
 	background: #343a40;
-	/* background: #efe1bd; */
+	/* background: #e6c265; */
 	min-height: 70px;
 	width: 100%;
 	overflow: hidden;
@@ -540,4 +554,12 @@ footer a:focus {
 	.smallgallery {
 		display: none !important;
 	}
+}
+
+.pswp__bg {
+    background-color: #70abaf !important;
+}
+
+.Pswp_bg image-zoom-background {
+    background-color: #70abaf !important;
 }

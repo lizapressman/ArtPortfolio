@@ -101,15 +101,17 @@ const images = [
 export const Memories = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
-            <Typical className="section-title" style={{ color: "black" }} steps={["Layered Paintings", 1500, "mem.", 1500]} wrapper="h1" />
-            <br />
+            <br /><br />
             <div style={{ margin: "auto", width: "80%" }}>
                 <div className="card" style={{ background: "#efe1bd" }}>
+                    <div className="card-header" style={{ paddingBottom: "0px" }}>
+                        <h1><Typical style={{ color: "black" }} steps={["Layered Paintings", 1500, "mem.", 1500]} wrapper="h1" /></h1>
+                    </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
                         style={{
                             height: "auto",
-                            fontSize: "100%",
+                            fontSize: "150%",
                             lineHeight: "200%",
                         }}
                     >
