@@ -82,7 +82,7 @@ export const Experience = () => {
             <div id="experience" className="col-md-12 center" style={{ marginTop: "100px" }}>
                 <div className="card" style={{ background: "#efe1bd" }}>
                     <div className="card-header" style={{ textAlign: "center" }}>
-                        <h1>EXPERIENCE</h1>
+                        <h1>WORK EXPERIENCE</h1>
                     </div>
                     <div
                         className="card-body font-trebuchet polaroid"
@@ -100,7 +100,7 @@ export const Experience = () => {
                         {isDatadogShown && (
                             <span style={{ textAlign: "left" }}>
                                 <h1>Datadog</h1>
-                                <p>Working on the Java APM</p>
+                                <p>Working on the Java APM team</p>
                             </span>
                         )
                         }

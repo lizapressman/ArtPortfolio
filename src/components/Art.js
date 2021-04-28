@@ -4,11 +4,11 @@ import Typical from "react-typical";
 class Art extends Component {
     render() {
         return (
-            <div id="art" style={{ marginTop: "70px" }}>
+            <div id="art" style={{ marginTop: "70px", marginBottom: "30px" }}>
                 <div style={{ margin: "auto", width: "80%" }}>
                     <div className="card" style={{ background: "#efe1bd" }}>
                         <div className="card-header" style={{ textAlign: "center", paddingBottom: "0px" }}>
-                            <h1>ABOUT ME ... <Typical steps={["as an artist"]} /></h1>
+                            <h1>ABOUT ME <Typical steps={["... as an artist"]} /></h1>
                         </div>
                         <div
                             className="card-body font-trebuchet text-justify ml-3 mr-3"

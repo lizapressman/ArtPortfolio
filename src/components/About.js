@@ -69,15 +69,18 @@ class About extends Component {
                                     }}
                                 >
                                     <span style={{ paddingLeft: "24px" }}>
-                                        I am currently a senior at at the University of Rochester (class of 2021) triple majoring in Computer Science, Mathematics, and Studio Arts. I have a CS concentration in Human Computer Interaction (HCI).
+                                        I am currently a senior at at the University of Rochester (class of 2021) triple majoring in Computer Science, Mathematics, and Studio Arts.
+                                        I have a CS concentration in Human Computer Interaction (HCI).
                                     </span>
                                     <br />
                                     <span style={{ paddingLeft: "24px" }}>
-                                        After graduation I will be moving to Boston, MA to start my career as a backend software engineer with Datadog! You can view my past and present work experience <a href="/ArtPortfolio/#/experience">here</a>.
+                                        After graduation I will be moving to Boston, MA to start my career as a backend software engineer with Datadog!
+                                        You can view my past and present work experience <a href="/ArtPortfolio/#/experience">here</a> or take a look at my <a href="/LizaPressmanResume.pdf">resume</a>.
                                     </span>
                                     <br />
                                     <span style={{ paddingLeft: "24px" }}>
-                                        I'm also an artist! Feel free to check out my <a href="/ArtPortfolio/#/art">work</a>. I do a lot of painting but love to play with random material as well.
+                                        I'm also an artist! Feel free to check out my <a href="/ArtPortfolio/#/art">work</a>.
+                                        I do a lot of painting but love to play with random material as well.
                                     </span>
                                 </div>
                             </div>

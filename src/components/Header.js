@@ -12,9 +12,10 @@ export const Header = () => {
             <div className="row aligner" style={{ height: '50%' }}>
                 <div className="col-md-12">
                     <div>
-                        <div className="polaroid header-polaroid">
-                            <span>
+                        <div className="polaroid header-polaroid" >
+                            <span style={{ borderRadius: "50%" }}>
                                 <img
+                                    style={{ borderRadius: "50%" }}
                                     height="300px"
                                     src="/images/header.jpg"
                                     alt="Avatar placeholder"

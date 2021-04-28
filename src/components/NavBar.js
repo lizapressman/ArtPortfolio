@@ -12,8 +12,8 @@ export const NavBar = () => {
                 <Nav className="mr-auto">
                     <Nav.Link href="/ArtPortfolio/#/about">About</Nav.Link>
                     <Nav.Link href="/ArtPortfolio/#/experience">Experience</Nav.Link>
-                    <NavDropdown title="Art" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/ArtPortfolio/#/art">main</NavDropdown.Item>
+                    <NavDropdown title="Art Portfolio" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/ArtPortfolio/#/art">About</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/ArtPortfolio/#/thesis">distort.</NavDropdown.Item>
                         <NavDropdown.Item href="/ArtPortfolio/#/memories">mem.</NavDropdown.Item>
