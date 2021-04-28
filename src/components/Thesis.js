@@ -108,7 +108,7 @@ export const Thesis = () => {
                         }}
                     >
                         <span>
-                            My senior thesis exhibition "distort." showcases paintings of figures submerged in water. In my works, the water acts as a boundary between realism and abstraction, clarity and deformation. Space, distortion, and thresholds are all important concepts I explore as I dives into the meditative process of creating.
+                            My senior thesis exhibition "distort." showcases paintings of figures submerged in water. In my works, the water acts as a boundary between realism and abstraction, clarity and deformation. Space, distortion, and thresholds are all important concepts I explore as I dive into the meditative process of creating.
                         </span>
                     </div>
                 </div>
