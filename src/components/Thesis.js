@@ -9,58 +9,58 @@ import ImageGallery from 'react-image-gallery';
 const MyGallery = () => (
     <Gallery shareButton={false} zoomButton={false}>
         <Item
-            original="images/portfolio/thesis/p4.jpg"
-            thumbnail="images/portfolio/thesis/thumbnail/p4.jpg"
+            original="/images/portfolio/thesis/p4.jpg"
+            thumbnail="/images/portfolio/thesis/thumbnail/p4.jpg"
             width="1024"
             height="768"
             title="Liza Pressman<br /><em>stretched</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" alt="" />
+                <img ref={ref} onClick={open} src="/images/portfolio/thesis/thumbnail/p4.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="images/portfolio/thesis/p1.jpg"
-            thumbnail="images/portfolio/thesis/thumbnail/p1.jpg"
+            original="/images/portfolio/thesis/p1.jpg"
+            thumbnail="/images/portfolio/thesis/thumbnail/p1.jpg"
             width="1024"
             height="768"
             title="Liza Pressman<br /><em>bobble</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" alt="" />
+                <img ref={ref} onClick={open} src="/images/portfolio/thesis/thumbnail/p1.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="images/portfolio/thesis/p5.jpg"
-            thumbnail="images/portfolio/thesis/thumbnail/p5.jpg"
+            original="/images/portfolio/thesis/p5.jpg"
+            thumbnail="/images/portfolio/thesis/thumbnail/p5.jpg"
             width="1024"
             height="768"
             title="Liza Pressman<br /><em>space</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" alt="" />
+                <img ref={ref} onClick={open} src="/images/portfolio/thesis/thumbnail/p5.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="images/portfolio/thesis/p2.jpg"
-            thumbnail="images/portfolio/thesis/thumbnail/p2.jpg"
+            original="/images/portfolio/thesis/p2.jpg"
+            thumbnail="/images/portfolio/thesis/thumbnail/p2.jpg"
             width="1024"
             height="768"
             title="Liza Pressman<br /><em>shallow</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" alt="" />
+                <img ref={ref} onClick={open} src="/images/portfolio/thesis/thumbnail/p2.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="images/portfolio/thesis/p3.jpg"
-            thumbnail="images/portfolio/thesis/thumbnail/p3.jpg"
+            original="/images/portfolio/thesis/p3.jpg"
+            thumbnail="/images/portfolio/thesis/thumbnail/p3.jpg"
             width="1024"
             height="768"
             title="Liza Pressman<br /><em>beneath</em>, 2021<br />Acrylic on unstretched canvas"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" alt="" />
+                <img ref={ref} onClick={open} src="/images/portfolio/thesis/thumbnail/p3.jpg" alt="" />
             )}
         </Item>
 
@@ -69,24 +69,24 @@ const MyGallery = () => (
 
 const images = [
     {
-        original: "images/portfolio/thesis/p4.jpg",
-        thumbnail: "images/portfolio/thesis/thumbnail/p4.jpg"
+        original: "/images/portfolio/thesis/p4.jpg",
+        thumbnail: "/images/portfolio/thesis/thumbnail/p4.jpg"
     },
     {
-        original: "images/portfolio/thesis/p1.jpg",
-        thumbnail: "images/portfolio/thesis/thumbnail/p1.jpg"
+        original: "/images/portfolio/thesis/p1.jpg",
+        thumbnail: "/images/portfolio/thesis/thumbnail/p1.jpg"
     },
     {
-        original: "images/portfolio/thesis/p5.jpg",
-        thumbnail: "images/portfolio/thesis/thumbnail/p5.jpg"
+        original: "/images/portfolio/thesis/p5.jpg",
+        thumbnail: "/images/portfolio/thesis/thumbnail/p5.jpg"
     },
     {
-        original: "images/portfolio/thesis/p2.jpg",
-        thumbnail: "images/portfolio/thesis/thumbnail/p2.jpg"
+        original: "/images/portfolio/thesis/p2.jpg",
+        thumbnail: "/images/portfolio/thesis/thumbnail/p2.jpg"
     },
     {
-        original: "images/portfolio/thesis/p3.jpg",
-        thumbnail: "images/portfolio/thesis/thumbnail/p3.jpg"
+        original: "/images/portfolio/thesis/p3.jpg",
+        thumbnail: "/images/portfolio/thesis/thumbnail/p3.jpg"
     },
 ];
 
@@ -103,7 +103,7 @@ export const Thesis = () => {
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
                         style={{
                             height: "auto",
-                            fontSize: "100%",
+                            fontSize: "150%",
                             lineHeight: "200%",
                         }}
                     >

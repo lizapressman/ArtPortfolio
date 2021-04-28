@@ -51,6 +51,11 @@ header {
   	color: #343a40;
 }
 
+@media screen and (max-width: 475px) {
+	.header-polaroid {
+		display: none;
+	}
+}
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
@@ -128,6 +133,57 @@ img {
 	text-align: center;
 }
 
+#experience {
+	background: #fff;
+	overflow: hidden;
+  	font-size: 62.5%;
+	padding-bottom: 70px;
+	margin-top: 7%;
+}
+
+#experience h1 {
+	/* padding-top: 5%; */
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
+.experience-polaroid{
+	text-align: center!important;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1090px) {
+	.experience-polaroid{
+		margin: 15px 40px 15px !important;
+	}
+}
+
+@media screen and (max-width: 888px) {
+	.experience-polaroid{
+		margin: 15px 15px 15px !important;
+	}
+}
+
+
+#art {
+	background: #fff;
+	overflow: hidden;
+  	font-size: 62.5%;
+	padding-bottom: 70px;
+	margin-top: 7%;
+}
+
+#art h1 {
+	/* padding-top: 5%; */
+	font: 18px/24px 'opensans-bold', sans-serif;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
+
 .foto img {
 	display: block;
 	width: 100%;
@@ -185,8 +241,8 @@ img {
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	margin: 30px 75px 30px;
+	padding: 15px 15px 15px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -348,9 +404,20 @@ img {
 }
 
 #portfolio {
-	/* background: #efe1bd; */
+	background: #fff;
+	overflow: hidden;
+  	font-size: 62.5%;
 	padding-bottom: 100px;
+	margin-top: 7%;
+}
+
+#portfolio h1 {
+	/* padding-top: 5%; */
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 	color: black;
+	text-align: center;
 }
 
 .portfolio-item {

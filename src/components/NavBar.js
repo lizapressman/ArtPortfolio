@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-// import { NavLink } from 'react-router-dom'
 
 export const NavBar = () => {
     return (
@@ -12,10 +11,12 @@ export const NavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/ArtPortfolio/#/about">About</Nav.Link>
+                    <Nav.Link href="/ArtPortfolio/#/experience">Experience</Nav.Link>
                     <NavDropdown title="Art" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/ArtPortfolio/#/art">main</NavDropdown.Item>
+                        <NavDropdown.Divider />
                         <NavDropdown.Item href="/ArtPortfolio/#/thesis">distort.</NavDropdown.Item>
                         <NavDropdown.Item href="/ArtPortfolio/#/memories">mem.</NavDropdown.Item>
-                        <NavDropdown.Divider />
                         <NavDropdown.Item href="/ArtPortfolio/#/other">misc.</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>

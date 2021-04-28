@@ -1,37 +1,34 @@
 import React from 'react';
 import Typical from "react-typical";
-import { Icon } from '@iconify/react';
-import bxPaint from '@iconify-icons/bx/bx-paint';
 
 export const Header = () => {
 
     const HeaderTitleTypeAnimation = React.memo(() => {
-        return (
-            <div>
-                <Typical className="title-styles" steps={[1200, "I'm a painter", 1000, "I'm a sculptor", 1000, "I'm a developer - ", 6600, "- PAINTER -"]} />
-                <Typical className="title-styles" steps={[7000, "I even made this website!", 4100, "- SCULPTOR -"]} />
-                <Typical className="title-styles" steps={[10000, "Click around a bit :)", 1800, "- DEVELOPER -"]} />
-            </div >
-        )
+        return <Typical className="title-styles" steps={["ENGINEER", 1500, "ARTIST", 1500, "DEVELOPER", 1500, "DESIGNER", 1500]} loop={Infinity} />
     }, (props, prevProp) => true);
 
     return (
-        <header id="home" style={{ height: window.innerHeight - 70, display: 'block' }}>
-            <div className="row aligner" style={{ height: '60%' }}>
+        <header id="header" style={{ height: window.innerHeight - 50, display: 'block' }}>
+            <div className="row aligner" style={{ height: '50%' }}>
                 <div className="col-md-12">
                     <div>
-                        <Icon icon={bxPaint} className="iconify header-icon" />
-                        <br />
-                        <h1 className="mb-0">
-                            <Typical steps={["Hi, I'm Liza"]} wrapper="p" />
-                        </h1>
-                        <div className="title-container">
+                        <div className="polaroid header-polaroid">
+                            <span>
+                                <img
+                                    height="300px"
+                                    src="/images/header.jpg"
+                                    alt="Avatar placeholder"
+                                />
+                            </span>
+                        </div>
+                        <Typical steps={["HEY, I'M LIZA!", 1500]} wrapper="h1" />
+                        <div>
                             <HeaderTitleTypeAnimation />
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header >
     );
 }
 

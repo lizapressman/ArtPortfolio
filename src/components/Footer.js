@@ -7,14 +7,19 @@ const social = [
         "class": "fab fa-github"
     },
     {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lizapressman/",
+        "class": "fab fa-linkedin-in"
+    },
+    {
+        "name": "resume",
+        "url": "/LizaPressmanResume.pdf",
+        "class": "fas fa-file-pdf"
+    },
+    {
         "name": "instagram",
         "url": "https://www.instagram.com/lizapressman_art/",
         "class": "fab fa-instagram"
-    },
-    {
-        "name": "cv",
-        "url": "lizapressman_cv.pdf",
-        "class": "fas fa-file-pdf"
     }
 ];
 
