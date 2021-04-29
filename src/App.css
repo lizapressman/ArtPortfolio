@@ -27,16 +27,7 @@ html {
 
 .card-header {
 	text-align: center!important;
-	background-color: #70abaf!important;	
-	/* background-color: #d6bd7f!important; */
-	/* background-color: #d3bdef!important; */
-	/* background-color: #efd5bd!important; */
-	/* background-color: #ecbdef!important; */
-	/* background-color: #bdc3ef!important; */
-	/* background-color: #bdefe9!important; */
-	/* background-color: #d9efbd!important; */
-
-
+	background-color: #eedaa9!important;
 }
 
 .header-icon {
@@ -88,7 +79,7 @@ header {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: rgba(52, 58, 64, 0.3);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -131,10 +122,10 @@ img {
 }
 
 #about {
-	background: #fff;
+	/* background: #efe1bd; */
 	overflow: hidden;
   	font-size: 62.5%;
-	padding-bottom: 70px;
+	padding-bottom: 100px;
 	margin-top: 7%;
 }
 
@@ -492,15 +483,15 @@ img {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #70abaf;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 10%;
+	/* padding-bottom: 10%; */
 }
 
 .section-title {
-	padding-top: 5%;
+	padding-top: 2%;
 	/* padding-bottom: 5%; */
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;

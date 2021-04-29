@@ -48,6 +48,70 @@ class Art extends Component {
                         </div>
                     </div>
                 </div>
+
+                <div
+                    className="col-lg-12"
+                    style={{
+                        cursor: "pointer",
+                        marginTop: "20px",
+                        background: "#70abaf"
+                    }}
+                >
+                    {/* <div className="card" style={{ background: "#70abaf" }}> */}
+                    <h1 className="section-title">EXHIBITIONS</h1>
+
+                    <div className="row center mx-auto">
+                        <div className="col-lg-4 center">
+                            <a href="/ArtPortfolio/#/thesis" rel="noopener noreferrer">
+                                <div className="polaroid">
+                                    <span>
+                                        <img
+                                            height="290px"
+                                            src="/images/portfolio/thesis/p4.jpg"
+                                            alt="Avatar placeholder"
+                                        />
+                                        <br /><br />
+                                        <h1>DISTORT</h1>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="col-lg-4 center">
+                            <a href="/ArtPortfolio/#/memories" rel="noopener noreferrer">
+                                <div className="polaroid">
+                                    <span>
+                                        <img
+                                            height="290px"
+                                            src="/images/portfolio/memories/single.jpg"
+                                            alt="Avatar placeholder"
+                                        />
+                                        <br /><br />
+                                        <h1>MEM</h1>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="col-lg-4 center">
+                            <a href="/ArtPortfolio/#/other" rel="noopener noreferrer">
+                                <div className="polaroid">
+                                    <span>
+                                        <img
+                                            height="290px"
+                                            src="/images/portfolio/other/p1.jpg"
+                                            alt="Avatar placeholder"
+                                        />
+                                        <br /><br />
+                                        <h1>MISCELLANEOUS</h1>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/* </div> */}
+
             </div >
 
         );
