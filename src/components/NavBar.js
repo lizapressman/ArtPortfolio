@@ -20,9 +20,9 @@ export const NavBar = () => {
                         <NavDropdown.Item href="/ArtPortfolio/#/other">misc.</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav>
+                {/* <Nav>
                     <Nav.Link href="/contact">Contact</Nav.Link>
-                </Nav>
+                </Nav> */}
             </Navbar.Collapse>
         </Navbar>
     )

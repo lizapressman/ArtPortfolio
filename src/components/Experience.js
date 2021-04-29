@@ -93,11 +93,8 @@ export const Experience = () => {
                         <br />
                         {isDatadogShown && (
                             <span style={{ textAlign: "left" }}>
-                                <h1>Datadog | <b>Software Engineer</b></h1>
-                                <p>Working on the Java APM team</p>
-                                <ul>
-                                    <li></li>
-                                </ul>
+                                <h1>Datadog | <b>Incoming Software Engineer</b></h1>
+                                <p>Java APM team</p>
                             </span>
                         )
                         }
