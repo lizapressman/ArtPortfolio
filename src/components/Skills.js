@@ -42,7 +42,7 @@ class Skills extends Component {
             }
         ];
 
-        var sectionName = "Skills";
+        var sectionName = " Tech Skills";
         var skills = sharedSkills.map(function (skills, i) {
             return (
                 <li className="list-inline-item mx-3" key={i}>

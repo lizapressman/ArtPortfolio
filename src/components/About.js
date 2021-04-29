@@ -42,7 +42,7 @@ class About extends Component {
                                 <span>
                                     <img
                                         height="250px"
-                                        src="/images/myProfile.jpg"
+                                        src="images/myProfile.jpg"
                                         alt="Avatar placeholder"
                                     />
                                     <br /><br />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from 'react-bootstrap/Modal'
 
 export const Experience = () => {
     const [isDatadogShown, setIsDatadogShown] = useState(false);
@@ -26,7 +27,7 @@ export const Experience = () => {
             }}>
                 <img
                     height="150px"
-                    src="/logos/datadog.svg"
+                    src="logos/datadog.svg"
                     alt="Avatar placeholder"
                 />
                 <br />
@@ -44,7 +45,7 @@ export const Experience = () => {
             }}>
                 <img
                     height="150px"
-                    src="/logos/target.png"
+                    src="logos/target.png"
                     alt="Avatar placeholder"
                 />
                 <br />
@@ -62,7 +63,7 @@ export const Experience = () => {
             }}>
                 <img
                     height="150px"
-                    src="/logos/doctorplan.jpeg"
+                    src="logos/doctorplan.jpeg"
                     alt="Avatar placeholder"
                 />
                 <br />
@@ -91,43 +92,72 @@ export const Experience = () => {
                         <Target />
                         <DoctorPlan />
                         <br />
-                        {isDatadogShown && (
-                            <span style={{ textAlign: "left" }}>
-                                <h1>Datadog | <b>Incoming Software Engineer</b></h1>
+
+                        <Modal
+                            show={isDatadogShown}
+                            onHide={() => setIsDatadogShown(false)}
+                            size="lg"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <Modal.Header closeButton>
+                                <Modal.Title id="example-custom-modal-styling-title">
+                                    Datadog | <b>Incoming Software Engineer</b>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
                                 <p>Java APM team</p>
-                            </span>
-                        )
-                        }
-                        {isTargetShown && (
-                            <span style={{ textAlign: "left" }}>
-                                <h1>Target | <b>Software Engineering Intern</b></h1>
+                            </Modal.Body>
+                        </Modal>
+
+                        <Modal
+                            show={isTargetShown}
+                            onHide={() => setIsTargetShown(false)}
+                            size="lg"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <Modal.Header closeButton>
+                                <Modal.Title id="example-custom-modal-styling-title">
+                                    Target | <b>Software Engineering Intern</b>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
                                 <p>Worked on the Purchase Orders Team developing with Java, Springboot, jOOQ, and React</p>
                                 <ul>
                                     <li>Wrote React components for internal Admin UI</li>
                                     <li>Implemented PostgreSQL queries within Java Springboot back- end and exposed them on rest endpoints</li>
                                     <li>Executed Java Springboot functional and unit tests</li>
                                 </ul>
-                            </span>
-                        )
-                        }
-                        {isDoctorPlanShown && (
-                            <span style={{ textAlign: "left" }}>
-                                <h1>DoctorPlan | <b>Software Engineering Intern</b></h1>
+                            </Modal.Body>
+                        </Modal>
+
+                        <Modal
+                            show={isDoctorPlanShown}
+                            onHide={() => setIsDoctorPlanShown(false)}
+                            size="lg"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <Modal.Header closeButton>
+                                <Modal.Title id="example-custom-modal-styling-title">
+                                    DoctorPlan | <b>Software Engineering Intern</b>
+                                </Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body>
                                 <p>Worked primarily on doctor facing tools</p>
                                 <ul>
                                     <li>Used Java to gather and summarize patient data and optimize visual display for surgeons’ use</li>
                                     <li>Used Javascript to convert data to natural language</li>
                                     <li>Used Vue.js to develop a questionnaire web application</li>
                                 </ul>
-                            </span>
-                        )
-                        }
+                            </Modal.Body>
+                        </Modal>
                     </div>
                 </div>
             </div>
             <br />
-            <div id="experience" className="col-md-12 center" style={{ marginTop: "0px", margin: "auto", width: "85%" }}>
-                {/* <div style={{ margin: "auto", width: "80%" }}> */}
+            <div id="experience" className="col-md-12 center main-projects" style={{ marginTop: "0px", margin: "auto", width: "95%" }}>
 
                 <div className="card" style={{ background: "#efe1bd", marginBottom: "50px" }}>
                     <div className="card-header">
@@ -142,7 +172,7 @@ export const Experience = () => {
                             textAlign: "center"
                         }}
                     >
-                        <span>
+                        <div className="project">
                             <a href="https://www.github.com/lizapressman/PersonalWebsite" target="_blank" rel="noopener noreferrer">
                                 <i style={{
                                     color: "black", fontSize: "18px/24px", display: "inline"
@@ -154,9 +184,9 @@ export const Experience = () => {
                             <div className="language-tag">React</div>
                             <div className="language-tag">Javascript</div>
                             <div className="language-tag">CSS</div>
-                        </span>
+                        </div>
 
-                        <span>
+                        <div className="project">
                             <a href="https://github.com/lizapressman/ResumeToWebsiteWebsite" target="_blank" rel="noopener noreferrer">
                                 <i style={{
                                     color: "black", fontSize: "18px/24px", display: "inline"
@@ -176,9 +206,9 @@ export const Experience = () => {
                             <div className="language-tag">React</div>
                             <div className="language-tag">Typescript</div>
                             <div className="language-tag">Flask</div>
-                        </span>
+                        </div>
 
-                        <span>
+                        <div className="project">
                             <a href="https://github.com/Mayshinlyan/TherapyJournalling" target="_blank" rel="noopener noreferrer">
                                 <i style={{
                                     color: "black", fontSize: "18px/24px", display: "inline"
@@ -188,9 +218,9 @@ export const Experience = () => {
 
                             <p>Application using MERN stack for personalized journaling with automated feedback based on mood &amp; text analysis</p>
                             <div className="language-tag">MERN</div>
-                        </span>
+                        </div>
 
-                        <span>
+                        <div className="project">
                             <a href="https://github.com/lizapressman/ConnectFour" target="_blank" rel="noopener noreferrer">
                                 <i style={{
                                     color: "black", fontSize: "18px/24px", display: "inline"
@@ -199,7 +229,7 @@ export const Experience = () => {
                             </a>
                             <p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
                             <div className="language-tag">Java</div>
-                        </span>
+                        </div>
                         <br />
                     </div>
                 </div>

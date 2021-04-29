@@ -8,7 +8,7 @@ export const Header = () => {
     }, (props, prevProp) => true);
 
     return (
-        <header id="header" style={{ height: window.innerHeight - 50, display: 'block' }}>
+        <header id="header" style={{ height: window.innerHeight - 70, display: 'block' }}>
             <div className="row aligner" style={{ height: '50%' }}>
                 <div className="col-md-12">
                     <div>
@@ -16,8 +16,8 @@ export const Header = () => {
                             <span style={{ borderRadius: "50%", background: "#70abaf" }}>
                                 <img
                                     style={{ borderRadius: "50%" }}
-                                    height="300px"
-                                    src="/images/header.jpg"
+                                    height="250px"
+                                    src="images/animation.gif"
                                     alt="Avatar placeholder"
                                 />
                             </span>

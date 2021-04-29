@@ -9,63 +9,63 @@ import ImageGallery from 'react-image-gallery';
 const MyGallery = () => (
     <Gallery shareButton={false} zoomButton={false}>
         <Item
-            original="/images/portfolio/memories/p1.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p1.jpg"
+            original="images/portfolio/memories/p1.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p1.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p1.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p1.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="/images/portfolio/memories/p2.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p2.jpg"
+            original="images/portfolio/memories/p2.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p2.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p2.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p2.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="/images/portfolio/memories/p3.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p3.jpg"
+            original="images/portfolio/memories/p3.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p3.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p3.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p3.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="/images/portfolio/memories/p4.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p4.jpg"
+            original="images/portfolio/memories/p4.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p4.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p4.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p4.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="/images/portfolio/memories/p5.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p5.jpg"
+            original="images/portfolio/memories/p5.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p5.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p5.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p5.jpg" alt="" />
             )}
         </Item>
         <Item
-            original="/images/portfolio/memories/p6.jpg"
-            thumbnail="/images/portfolio/memories/thumbnail/p6.jpg"
+            original="images/portfolio/memories/p6.jpg"
+            thumbnail="images/portfolio/memories/thumbnail/p6.jpg"
             width="1024"
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/images/portfolio/memories/thumbnail/p6.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p6.jpg" alt="" />
             )}
         </Item>
     </Gallery>
@@ -73,28 +73,28 @@ const MyGallery = () => (
 
 const images = [
     {
-        original: "/images/portfolio/memories/p1.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p1.jpg"
+        original: "images/portfolio/memories/p1.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p1.jpg"
     },
     {
-        original: "/images/portfolio/memories/p2.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p2.jpg"
+        original: "images/portfolio/memories/p2.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p2.jpg"
     },
     {
-        original: "/images/portfolio/memories/p3.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p3.jpg"
+        original: "images/portfolio/memories/p3.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p3.jpg"
     },
     {
-        original: "/images/portfolio/memories/p4.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p4.jpg"
+        original: "images/portfolio/memories/p4.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p4.jpg"
     },
     {
-        original: "/images/portfolio/memories/p5.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p5.jpg"
+        original: "images/portfolio/memories/p5.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p5.jpg"
     },
     {
-        original: "/images/portfolio/memories/p6.jpg",
-        thumbnail: "/images/portfolio/memories/thumbnail/p6.jpg"
+        original: "images/portfolio/memories/p6.jpg",
+        thumbnail: "images/portfolio/memories/thumbnail/p6.jpg"
     }
 ];
 

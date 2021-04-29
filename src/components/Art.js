@@ -38,7 +38,7 @@ class Art extends Component {
                             <br />
                             <span key="cv" className="m-4 social-links center">
                                 <h1>CV:&nbsp;
-                                <a href="/lizapressman_cv.pdf" target="_blank" rel="noopener noreferrer">
+                                <a href="lizapressman_cv.pdf" target="_blank" rel="noopener noreferrer">
                                         <i style={{ color: "black" }} className="fas fa-file-pdf"></i>
                                     </a>
                                 </h1>
@@ -65,7 +65,7 @@ class Art extends Component {
                                     <span>
                                         <img
                                             height="290px"
-                                            src="/images/portfolio/thesis/p4.jpg"
+                                            src="images/portfolio/thesis/p4.jpg"
                                             alt="Avatar placeholder"
                                         />
                                         <br /><br />
@@ -81,7 +81,7 @@ class Art extends Component {
                                     <span>
                                         <img
                                             height="290px"
-                                            src="/images/portfolio/memories/single.jpg"
+                                            src="images/portfolio/memories/single.jpg"
                                             alt="Avatar placeholder"
                                         />
                                         <br /><br />
@@ -97,7 +97,7 @@ class Art extends Component {
                                     <span>
                                         <img
                                             height="290px"
-                                            src="/images/portfolio/other/p1.jpg"
+                                            src="images/portfolio/other/p1.jpg"
                                             alt="Avatar placeholder"
                                         />
                                         <br /><br />

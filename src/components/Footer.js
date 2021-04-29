@@ -13,7 +13,7 @@ const social = [
     },
     {
         "name": "resume",
-        "url": "/LizaPressmanResume.pdf",
+        "url": "LizaPressmanResume.pdf",
         "class": "fas fa-file-pdf"
     },
     {
