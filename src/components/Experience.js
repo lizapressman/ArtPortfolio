@@ -107,6 +107,9 @@ export const Experience = () => {
                             </Modal.Header>
                             <Modal.Body>
                                 <p>Java APM team</p>
+                                <div style={{ textAlign: "center" }}>
+                                    <div className="language-tag">Java</div>
+                                </div>
                             </Modal.Body>
                         </Modal>
 
@@ -129,6 +132,12 @@ export const Experience = () => {
                                     <li>Implemented PostgreSQL queries within Java Springboot back- end and exposed them on rest endpoints</li>
                                     <li>Executed Java Springboot functional and unit tests</li>
                                 </ul>
+                                <div style={{ textAlign: "center" }}>
+                                    <div className="language-tag">Java</div>
+                                    <div className="language-tag">Springboot</div>
+                                    <div className="language-tag">jOOQ</div>
+                                    <div className="language-tag">React</div>
+                                </div>
                             </Modal.Body>
                         </Modal>
 
@@ -151,6 +160,11 @@ export const Experience = () => {
                                     <li>Used Javascript to convert data to natural language</li>
                                     <li>Used Vue.js to develop a questionnaire web application</li>
                                 </ul>
+                                <div style={{ textAlign: "center" }}>
+                                    <div className="language-tag">Java</div>
+                                    <div className="language-tag">Javascript</div>
+                                    <div className="language-tag">Vue.js</div>
+                                </div>
                             </Modal.Body>
                         </Modal>
                     </div>

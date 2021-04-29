@@ -56,7 +56,7 @@ class Art extends Component {
                     }}
                 >
                     {/* <div className="card" style={{ background: "#70abaf" }}> */}
-                    <h1 className="section-title">EXHIBITIONS</h1>
+                    <h1 className="section-title" style={{ color: "white" }}>EXHIBITIONS</h1>
 
                     <div className="row center mx-auto">
                         <div className="col-lg-4 center">
