@@ -171,7 +171,7 @@ img {
 .language-tag {
 	background: #70abaf!important;
 	margin: 5px;
-	border-radius: 20%;
+	border-radius: 10px;
 	display: inline-block;
 	padding: 5px 15px 5px;
 	text-align: center;
@@ -184,6 +184,28 @@ img {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+}
+
+.art-label {
+	background: #efe1bd!important;
+	margin: 5px;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 5px 15px 5px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-transition: all .20s linear;
+	-moz-transition: all .20s linear;
+	transition: all .20s linear;
+	z-index: 0;
+	position: relative;
+}
+
+art-set img {
+	margin: 5px;
 }
 
 @media screen and (max-width: 1090px) {
@@ -208,7 +230,7 @@ img {
 }
 
 #art h1 {
-	/* padding-top: 5%; */
+	padding-top: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	letter-spacing: 3px;
 	color: black;

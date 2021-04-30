@@ -65,7 +65,7 @@ class Art extends Component {
                                     <span>
                                         <img
                                             height="290px"
-                                            src="images/portfolio/thesis/p4.jpg"
+                                            src="images/portfolio/thesis/multiple.jpg"
                                             alt="Avatar placeholder"
                                         />
                                         <br /><br />
