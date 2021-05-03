@@ -9,7 +9,7 @@ import ImageGallery from 'react-image-gallery';
 const MyGallery = () => (
     <Gallery shareButton={false} zoomButton={false}>
         <div className="row center" >
-            <div>
+            <div style={{ margin: "5px" }}>
                 <Item
                     original="images/portfolio/thesis/p4.jpg"
                     thumbnail="images/portfolio/thesis/thumbnail/p4.jpg"
@@ -18,14 +18,13 @@ const MyGallery = () => (
                     title="Liza Pressman<br /><em>stretched</em>, 2021<br />Acrylic on unstretched canvas"
                 >
                     {({ ref, open }) => (
-                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" alt="" />
+                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p4.jpg" alt="" width="100%" />
                     )}
                 </Item>
-                {/* <p style={{ display: "inline-block" }}>this piece blah blah blah blah giraffe head</p> */}
                 <br />
                 <span className="art-label">Liza Pressman<br /><em>stretched</em>, 2021<br />Acrylic on unstretched canvas</span>
             </div>
-            <div>
+            <div style={{ margin: "5px" }}>
                 <Item
                     original="images/portfolio/thesis/p1.jpg"
                     thumbnail="images/portfolio/thesis/thumbnail/p1.jpg"
@@ -34,7 +33,7 @@ const MyGallery = () => (
                     title="Liza Pressman<br /><em>bobble</em>, 2021<br />Acrylic on unstretched canvas"
                 >
                     {({ ref, open }) => (
-                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" alt="" />
+                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p1.jpg" alt="" width="100%" />
                     )}
                 </Item>
                 <br />
@@ -42,7 +41,7 @@ const MyGallery = () => (
             </div>
         </div>
         <div className="row center" >
-            <div>
+            <div style={{ margin: "5px" }}>
                 <Item
                     original="images/portfolio/thesis/p5.jpg"
                     thumbnail="images/portfolio/thesis/thumbnail/p5.jpg"
@@ -51,13 +50,13 @@ const MyGallery = () => (
                     title="Liza Pressman<br /><em>space</em>, 2021<br />Acrylic on unstretched canvas"
                 >
                     {({ ref, open }) => (
-                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" alt="" />
+                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p5.jpg" alt="" width="100%" />
                     )}
                 </Item>
                 <br />
                 <span className="art-label">Liza Pressman<br /><em>space</em>, 2021<br />Acrylic on unstretched canvas</span>
             </div>
-            <div>
+            <div style={{ margin: "5px" }}>
                 <Item
                     original="images/portfolio/thesis/p2.jpg"
                     thumbnail="images/portfolio/thesis/thumbnail/p2.jpg"
@@ -66,13 +65,13 @@ const MyGallery = () => (
                     title="Liza Pressman<br /><em>shallow</em>, 2021<br />Acrylic on unstretched canvas"
                 >
                     {({ ref, open }) => (
-                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" alt="" />
+                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p2.jpg" alt="" width="100%" />
                     )}
                 </Item>
                 <br />
                 <span className="art-label">Liza Pressman<br /><em>shallow</em>, 2021<br />Acrylic on unstretched canvas</span>
             </div>
-            <div>
+            <div style={{ margin: "5px" }}>
                 <Item
                     original="images/portfolio/thesis/p3.jpg"
                     thumbnail="images/portfolio/thesis/thumbnail/p3.jpg"
@@ -81,7 +80,7 @@ const MyGallery = () => (
                     title="Liza Pressman<br /><em>beneath</em>, 2021<br />Acrylic on unstretched canvas"
                 >
                     {({ ref, open }) => (
-                        <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" alt="" />
+                        <img style={{ cursor: "pointer" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p3.jpg" alt="" width="100%" />
                     )}
                 </Item>
                 <br />
@@ -139,13 +138,16 @@ export const ThesisForClass = () => {
                         }}
                     >
                         <span style={{ paddingLeft: "24px" }}>
-                            My senior thesis exhibition "distort." showcases paintings of figures submerged in water. In my works, the water acts as a boundary between realism and abstraction, clarity and deformation. Space, distortion, and thresholds are all important concepts I explore as I dives into the meditative process of creating.
+                            My senior thesis exhibition "distort." showcases paintings of figures submerged in water. In my works, the water acts as a boundary between realism and abstraction, clarity and deformation. Space, distortion, and thresholds are all important concepts I explore as I dive into the meditative process of creating.
                         </span>
                     </div>
                 </div>
                 <br />
 
                 <div className="card" style={{ background: "#70abaf" }}>
+                    <div className="card-header" style={{ paddingBottom: "0px", color: "#70abaf !important" }}>
+                        <h1>Paintings</h1>
+                    </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
                         style={{
@@ -154,18 +156,19 @@ export const ThesisForClass = () => {
                             lineHeight: "200%",
                         }}
                     >
-                        <div className="biggallery" style={{ textAlign: "center", marginBottom: "30px" }}>
+                        <div style={{ textAlign: "center" }}>
                             <MyGallery />
                         </div>
-                        <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
+                        {/* <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
                             <ImageGallery items={images} thumbnailPosition={"right"} slideDuration={1000} slideInterval={5000} />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
                 <br />
                 <div className="card" style={{ background: "#efe1bd" }}>
                     <div className="card-header" style={{ paddingBottom: "0px" }}>
+                        <h1>Theisis Statement</h1>
                     </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -180,10 +183,10 @@ export const ThesisForClass = () => {
                             </span>
                         <br />
                         <span style={{ paddingLeft: "24px" }}>
-                            If you’ve gotten a chance to check out my paintings in sage you’d know all of them are acrylic on loose canvas which I chose because I love the way the unstretched canvas almost mimics the movement of the water when it ripples and buckles. It’s a bit hard to get this effect through the computer but this was an important component of the work for me as well.
+                            If you’ve gotten a chance to check out my paintings in Sage you’d know all of them are acrylic on loose canvas which I chose because I love the way the unstretched canvas almost mimics the movement of the water when it ripples and buckles. It’s a bit hard to get this effect through the computer but this was an important component of the work for me as well.
                         </span>
                         <br /><br />
-                        <div>
+                        <div style={{ textAlign: "center" }}>
                             <Gallery shareButton={false} zoomButton={false}>
                                 <div className="row center" >
                                     <div>
@@ -192,14 +195,14 @@ export const ThesisForClass = () => {
                                             thumbnail="images/portfolio/thesis/exhibition.jpg"
                                             width="1024"
                                             height="768"
-                                            title="Here is an image my senior thesis group show&nbsp;<i>SOLOS</i>&nbsp;at Sage Art center in Rochester, NY."
+                                            title="<i>SOLOS:</i>&nbsp;A Group Exhibition<br />Sage Art center, Rochester, NY"
                                         >
                                             {({ ref, open }) => (
-                                                <img style={{ cursor: "pointer", margin: "5px", display: "block", margin: "auto" }} ref={ref} onClick={open} src="images/portfolio/thesis/exhibition.jpg" alt="" width="80%" />
+                                                <img style={{ cursor: "pointer", display: "block", margin: "auto" }} ref={ref} onClick={open} src="images/portfolio/thesis/exhibition.jpg" alt="" width="80%" />
                                             )}
                                         </Item>
                                         <br />
-                                        <span style={{ width: "70%", display: "block", margin: "auto" }} className="language-tag center">Here is an image my senior thesis group show&nbsp;<i>SOLOS</i>&nbsp;at Sage Art center in Rochester, NY.</span>
+                                        <span className="language-tag"><i>SOLOS:</i>&nbsp;A Group Exhibition<br />Sage Art center, Rochester, NY</span>
 
                                     </div>
                                 </div>
@@ -208,7 +211,66 @@ export const ThesisForClass = () => {
                     </div>
                 </div>
 
+                <br />
+
+                <div className="card" style={{ background: "#70abaf" }}>
+                    <div className="card-header" style={{ paddingBottom: "0px", color: "#70abaf !important" }}>
+                        <h1>Further Exploration</h1>
+                    </div>
+                    <div
+                        className="card-body font-trebuchet text-justify ml-3 mr-3"
+                        style={{
+                            height: "auto",
+                            fontSize: "150%",
+                            lineHeight: "200%",
+                        }}
+                    >
+                        <span style={{ paddingLeft: "24px" }}>
+                            While the primary work for my senior thesis focused on figures in water, I have started and will continue exploring water as a general concept.
+                            Following installation of our group exhibition in Sage, I continued working with the theme of water but in a different way.
+                            Below is a couple snaps of my newest abstract water painting titled <em>void</em>.
+                        </span>
+                        <br /><br />
+                        <div style={{ textAlign: "center" }}>
+                            <Gallery shareButton={false} zoomButton={false}>
+                                <div className="row center" >
+                                    <div style={{ margin: "5px" }}>
+                                        <Item
+                                            original="images/portfolio/thesis/p6.jpg"
+                                            thumbnail="images/portfolio/thesis/p6.jpg"
+                                            width="1024"
+                                            height="768"
+                                            title="Liza Pressman<br /><em>void</em>, 2021<br />Acrylic on canvas"
+                                        >
+                                            {({ ref, open }) => (
+                                                <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p6.jpg" width="100%" alt="" />
+                                            )}
+                                        </Item>
+                                        <br />
+                                        <span className="art-label">Liza Pressman<br /><em>void</em>, 2021<br />Acrylic on canvas</span>
+                                    </div>
+                                    <div style={{ margin: "5px" }}>
+                                        <Item
+                                            original="images/portfolio/thesis/p7.jpg"
+                                            thumbnail="images/portfolio/thesis/p7.jpg"
+                                            width="1024"
+                                            height="768"
+                                            title="Liza Pressman<br /><em>void</em>, 2021<br />Acrylic on canvas"
+                                        >
+                                            {({ ref, open }) => (
+                                                <img style={{ cursor: "pointer", margin: "5px" }} ref={ref} onClick={open} src="images/portfolio/thesis/thumbnail/p7.jpg" width="100%" alt="" />
+                                            )}
+                                        </Item>
+                                        <br />
+                                        <span className="art-label">Liza Pressman<br /><em>void</em>, 2021<br />Acrylic on canvas</span>
+                                    </div>
+                                </div>
+                            </Gallery>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
+        </div >
     )
 }

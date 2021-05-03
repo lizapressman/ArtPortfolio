@@ -15,7 +15,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p1.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p1.jpg" alt="" width="100%" />
             )}
         </Item>
         <Item
@@ -25,7 +25,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p2.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p2.jpg" alt="" width="100%" />
             )}
         </Item>
         <Item
@@ -35,7 +35,7 @@ const MyGallery = () => (
             height="768"
         >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p3.jpg" alt="" />
+                <img ref={ref} onClick={open} src="images/portfolio/memories/thumbnail/p3.jpg" alt="" width="100%" />
             )}
         </Item>
         <Item
@@ -125,8 +125,7 @@ export const Memories = () => {
                     <MyGallery />
                 </div>
                 <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
-                    <ImageGallery items={images} showThumbnails={false} slideDuration={1000} slideInterval={5000} />
-
+                    <ImageGallery items={images} thumbnailPosition={"right"} slideDuration={1000} slideInterval={5000} />
                 </div>
             </div>
         </div>

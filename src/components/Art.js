@@ -7,7 +7,7 @@ class Art extends Component {
             <div id="art" style={{ marginTop: "70px", marginBottom: "30px" }}>
                 <div style={{ margin: "auto", width: "80%" }}>
                     <div className="card" style={{ background: "#efe1bd" }}>
-                        <div className="card-header" style={{ paddingBottom: "0px" }}>
+                        <div className="card-header">
                             <h1>ABOUT ME <Typical steps={["... as an artist"]} /></h1>
                         </div>
                         <div

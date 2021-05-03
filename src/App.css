@@ -27,7 +27,7 @@ html {
 
 .card-header {
 	text-align: center!important;
-	background-color: #eedaa9!important;
+	background-color: #eedaa9;
 }
 
 .header-icon {
@@ -230,7 +230,6 @@ art-set img {
 }
 
 #art h1 {
-	padding-top: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	letter-spacing: 3px;
 	color: black;

@@ -293,7 +293,7 @@ export const Other = () => {
                     <MyGallery />
                 </div>
                 <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
-                    <ImageGallery items={images} showThumbnails={false} slideDuration={1000} slideInterval={5000} />
+                    <ImageGallery items={images} thumbnailPosition={"right"} slideDuration={1000} slideInterval={5000} />
                 </div>
             </div>
         </div>
