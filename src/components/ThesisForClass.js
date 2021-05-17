@@ -110,7 +110,6 @@ const images = [
         original: "images/portfolio/thesis/p2.jpg",
         thumbnail: "images/portfolio/thesis/thumbnail/p2.jpg",
         thumbnailLabel: "shallow",
-
     },
     {
         original: "images/portfolio/thesis/p3.jpg",
@@ -145,8 +144,7 @@ export const ThesisForClass = () => {
                 <br />
 
                 <div className="card" style={{ background: "#70abaf" }}>
-                    <div className="card-header" style={{ paddingBottom: "0px", color: "#70abaf !important" }}>
-                        <h1>Paintings</h1>
+                    <div className="card-header" style={{ paddingBottom: "0px", backgroundColor: "#70abaf !important" }}>
                     </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -156,19 +154,19 @@ export const ThesisForClass = () => {
                             lineHeight: "200%",
                         }}
                     >
-                        <div style={{ textAlign: "center" }}>
+                        <div className="biggallery" style={{ textAlign: "center" }}>
                             <MyGallery />
                         </div>
-                        {/* <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
+                        <div className="smallgallery" style={{ textAlign: "center", marginBottom: "30px" }}>
                             <ImageGallery items={images} thumbnailPosition={"right"} slideDuration={1000} slideInterval={5000} />
-                        </div> */}
+                        </div>
                     </div>
                 </div>
 
                 <br />
                 <div className="card" style={{ background: "#efe1bd" }}>
                     <div className="card-header" style={{ paddingBottom: "0px" }}>
-                        <h1>Theisis Statement</h1>
+                        <h1>Thesis Statement</h1>
                     </div>
                     <div
                         className="card-body font-trebuchet text-justify ml-3 mr-3"
@@ -214,7 +212,7 @@ export const ThesisForClass = () => {
                 <br />
 
                 <div className="card" style={{ background: "#70abaf" }}>
-                    <div className="card-header" style={{ paddingBottom: "0px", color: "#70abaf !important" }}>
+                    <div className="card-header" style={{ paddingBottom: "0px", backgroundColor: "#70abaf !important" }}>
                         <h1>Further Exploration</h1>
                     </div>
                     <div

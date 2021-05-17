@@ -27,7 +27,7 @@ html {
 
 .card-header {
 	text-align: center!important;
-	background-color: #eedaa9;
+	/* background-color: #eedaa9; */
 }
 
 .header-icon {
@@ -324,8 +324,8 @@ art-set img {
 		background: none;
 		margin: 10px 5px 5px;
 		padding: 5px 5px 5px;
-		-webkit-box-shadow: none;
 		border-bottom: 1px solid black;
+		box-shadow: none;
 	}
 	.main-projects {
 		width: 100%!important;

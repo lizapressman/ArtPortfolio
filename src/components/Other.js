@@ -284,7 +284,7 @@ export const Other = () => {
     return (
         <div id="portfolio" style={{ marginTop: "50px" }}>
             <br /><br />
-            <div className="card-header" style={{ paddingBottom: "0px" }}>
+            <div className="card-header" style={{ paddingBottom: "0px", background: "#efe1bd" }}>
                 <Typical style={{ color: "black" }} steps={["Miscellaneous Works", 1500]} wrapper="h1" />
             </div>
             <br />

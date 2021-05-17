@@ -11,6 +11,19 @@ import { Other } from "./components/Other";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from './components/Footer';
 import Experience from './components/Experience';
+import { datadogRum } from '@datadog/browser-rum-recorder';
+
+datadogRum.init({
+  applicationId: '12fd31f6-7903-4fe5-9378-414b25d45142',
+  clientToken: 'pub171d203bcd34b1f3e82a4802a9a49c91',
+  site: 'datadoghq.com',
+  service: 'art-portfolio',
+  // Specify a version number to identify the deployed version of your application in Datadog 
+  // version: '1.0.0',
+  sampleRate: 100,
+  trackInteractions: true
+});
+
 
 function App() {
   return (
