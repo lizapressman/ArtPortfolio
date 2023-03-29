@@ -102,13 +102,17 @@ export const Experience = () => {
                         >
                             <Modal.Header closeButton>
                                 <Modal.Title id="example-custom-modal-styling-title">
-                                    Datadog | <b>Incoming Software Engineer</b>
+                                    Datadog | <b>Serverless App</b>
                                 </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                                <p>Java APM team</p>
+                                <p><b>Software Engineer II</b> | DEC 2022 - PRESENT</p>
+                                <p><b>Software Engineer I</b> | JUN 2021 - DEC 2022</p>
+                                {/* <p><b>Devex squad</b></p> */}
                                 <div style={{ textAlign: "center" }}>
-                                    <div className="language-tag">Java</div>
+                                    <div className="language-tag">React</div>
+                                    <div className="language-tag">Typescript</div>
+                                    <div className="language-tag">Python</div>
                                 </div>
                             </Modal.Body>
                         </Modal>
